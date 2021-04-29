@@ -9,13 +9,15 @@ import { MaterialModule } from './material.module';
 import { HomePageComponent } from './homePage/homePage.component';
 import { QuestionnaireComponent } from './questionnaire/questionnaire.component';
 import { MyProfileComponent } from './myProfile/myProfile.component';
+import { ProfilesPageComponent } from './profilesPage/profilesPage.component';
 
 @NgModule({
-  declarations: [
+  declarations: [	
     AppComponent,
       HomePageComponent,
       QuestionnaireComponent,
       MyProfileComponent,
+      ProfilesPageComponent
    ],
   imports: [
     BrowserModule,
